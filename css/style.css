@@ -174,7 +174,7 @@ body {
   color: #fff;
 }
 .car-detailing__block {
-  padding: 0 0 652px 0;
+  padding: 0 0 632px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -212,5 +212,85 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 180%;
+  color: #fff;
+}
+
+/***************************************/
+.love-detail__block {
+  padding: 0 0 34px 0;
+  border-bottom: 1px #999 solid;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  color: #999;
+}
+.love-detail__info {
+  padding: 38px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.love-detail__title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 112%;
+  color: #fff;
+}
+.love-detail__text {
+  max-width: 544px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #999;
+}
+.gallery {
+  padding: 80px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 32px;
+     -moz-column-gap: 32px;
+          column-gap: 32px;
+}
+.gallery__slide {
+  max-width: 352px;
+}
+.gallery__img {
+  width: 100%;
+}
+.gallery__title {
+  padding: 32px 0 0 0;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  color: #fff;
+}
+.gallery__text {
+  padding: 20px 0 0 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #999;
+}
+.gallery__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 32px 0 0 0;
+  text-decoration: none;
+  -webkit-column-gap: 8px;
+     -moz-column-gap: 8px;
+          column-gap: 8px;
+}
+.gallery__link span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
   color: #fff;
 }
