@@ -317,7 +317,6 @@ body._lock {
   color: #fff;
 }
 .car-detailing__block {
-  padding: 0 0 632px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -329,7 +328,6 @@ body._lock {
       -ms-flex-align: center;
           align-items: center;
   row-gap: 28px;
-  background: url(../img/head-bg.jpg) center/cover no-repeat;
 }
 .car-detailing__text {
   max-width: 517px;
@@ -357,8 +355,17 @@ body._lock {
   line-height: 180%;
   color: #fff;
 }
+.car-detailing__bg {
+  padding: 12px 0 0 0;
+}
+.car-detailing__img {
+  width: 100%;
+}
 
 /***************************************/
+.love-detail__body {
+  padding: 16px 0 0 0;
+}
 .love-detail__block {
   padding: 0 0 34px 0;
   border-bottom: 1px #999 solid;
@@ -390,7 +397,7 @@ body._lock {
   color: #999;
 }
 .gallery {
-  padding: 80px 0;
+  padding: 74px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -412,7 +419,7 @@ body._lock {
   color: #fff;
 }
 .gallery__text {
-  padding: 20px 0 0 0;
+  padding: 10px 0 0 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -425,7 +432,7 @@ body._lock {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 32px 0 0 0;
+  padding: 18px 0 0 0;
   text-decoration: none;
   -webkit-column-gap: 8px;
      -moz-column-gap: 8px;
