@@ -404,7 +404,7 @@ body._lock {
   }
 }
 .love-detail__body {
-  padding: 16px 0 0 0;
+  padding: 16px 0 79px 0;
 }
 .love-detail__block {
   padding: 0 0 34px 0;
@@ -519,5 +519,39 @@ body._lock {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
+  color: #fff;
+}
+
+/***************************************/
+.video__body {
+  position: relative;
+}
+.video__player {
+  width: 100%;
+}
+.video__control {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+.video__text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 270%;
+  text-align: center;
   color: #fff;
 }

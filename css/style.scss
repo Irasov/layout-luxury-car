@@ -363,7 +363,7 @@ body {
     // .love-detail__body
 
     &__body {
-        padding: 16px 0 0 0;
+        padding: 16px 0 79px 0;
     }
 
     // .love-detail__block
@@ -481,6 +481,53 @@ body {
         }
     }
 }
+
+/***************************************/
+
+.video {
+
+    // .video__container
+
+    &__container {
+    }
+
+    // .video__body
+
+    &__body {
+        position: relative;
+    }
+
+    // .video__player
+
+    &__player {
+        width: 100%;
+    }
+
+    // .video__control
+
+    &__control {
+        position: absolute; 
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    // .video__text
+
+    &__text {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 270%;
+        text-align: center;
+        color: #fff;
+    }
+}
+
+
 
 
 
