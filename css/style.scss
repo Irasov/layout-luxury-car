@@ -688,6 +688,7 @@ body {
     &__block {
         padding: 100px 0 165px 64px;
         background: url(../img/book.png) center / cover no-repeat;
+        border-radius: 16px;
         @media (max-width: 649.98px) {
             padding: 40px 0 65px 0px;
         }
