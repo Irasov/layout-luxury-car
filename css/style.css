@@ -280,6 +280,11 @@ body._lock {
   text-align: center;
   color: #fff;
   text-decoration: none;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.header__link:hover {
+  color: #999;
 }
 .header__btn {
   border: 1px solid #fff;
@@ -291,6 +296,12 @@ body._lock {
   text-align: center;
   color: #fff;
   text-decoration: none;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.header__btn:hover {
+  border: 1px solid #999;
+  color: #999;
 }
 
 /***************************************/
@@ -377,12 +388,23 @@ body._lock {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: #fff;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.car-detailing__link:hover .car-detailing__link-text {
+  color: #999;
+}
+.car-detailing__link:hover {
+  color: #999;
 }
 .car-detailing__link-text {
   font-weight: 500;
   font-size: 20px;
   line-height: 180%;
   color: #fff;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 @media (max-width: 649.98px) {
   .car-detailing__link-text {
@@ -519,12 +541,23 @@ body._lock {
   -webkit-column-gap: 8px;
      -moz-column-gap: 8px;
           column-gap: 8px;
+  color: #fff;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 .gallery__link span {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   color: #fff;
+}
+.gallery__link:hover span {
+  color: #999;
+}
+.gallery__link:hover {
+  color: #999;
 }
 
 /***************************************/
@@ -554,8 +587,19 @@ body._lock {
       -ms-flex-align: center;
           align-items: center;
   cursor: pointer;
+  color: #fff;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.video__control:hover span {
+  color: #999;
+}
+.video__control:hover {
+  color: #999;
 }
 .video__text {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
   font-weight: 500;
   font-size: 20px;
   line-height: 270%;
@@ -688,12 +732,23 @@ body._lock {
   -webkit-column-gap: 16px;
      -moz-column-gap: 16px;
           column-gap: 16px;
+  color: #fff;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.right__link:hover .right__text-link {
+  color: #999;
+}
+.right__link:hover {
+  color: #999;
 }
 .right__text-link {
   font-weight: 500;
   font-size: 20px;
   line-height: 180%;
   color: #fff;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 /***************************************/
@@ -742,12 +797,23 @@ body._lock {
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
+  color: #fff;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.book__link:hover .book__text-link {
+  color: #999;
+}
+.book__link:hover {
+  color: #999;
 }
 .book__text-link {
   font-weight: 500;
   font-size: 20px;
   line-height: 180%;
   color: #fff;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 /***************************************/
@@ -877,6 +943,11 @@ body._lock {
   line-height: 187%;
   color: #fff;
   text-decoration: none;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.footer__link:hover {
+  color: #999;
 }
 
 .navigation__item {
@@ -892,4 +963,9 @@ body._lock {
 .navigation__link {
   text-decoration: none;
   color: #fff;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.navigation__link:hover {
+  color: #999;
 }
